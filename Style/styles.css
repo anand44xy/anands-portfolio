@@ -529,3 +529,28 @@ span{
         width: 100%;
     }
 }
+
+.whatsapp-float {
+    position: fixed;
+    top: 12px;
+    right: 50px;
+    background-color: #25D366;
+    color: #fff;
+    font-size: 26px;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    transition: transform 0.3s ease;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.whatsapp-float:hover {
+    transform: scale(1.1);
+}
